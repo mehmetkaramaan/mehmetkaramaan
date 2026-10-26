@@ -16,9 +16,13 @@
 
 I'm pursuing a **master's degree in Artificial Intelligence** and developing AI models with **Python**. My interests span **machine learning, deep learning, image processing, computer vision, and time series analysis**.
 
-During my **undergraduate studies in Mechanical Engineering**, I developed my knowledge and skills in **control engineering**. That background shapes how I approach AI: understanding system behavior, working with measurements, and connecting models to practical engineering problems.
+I also work with **C++ and object-oriented programming (OOP)**. My repositories include explanations and examples of **C++ lambda expressions**, alongside small applications that explore classes, object interactions, and reusable program structure. I use these projects to connect programming concepts with practical implementations.
 
-My projects include medical image segmentation, plant disease classification for a camera-based application, and tabular machine learning. I enjoy taking a project from data preparation and model training to evaluation, visualization, and deployment-oriented model export.
+During my **undergraduate studies in Mechanical Engineering**, I developed my knowledge and skills in **control engineering**. I have designed a **UAV control system**, worked with **control algorithms**, and used **Kalman filtering**. These experiences connect my interest in AI with dynamic systems, measurements, and engineering applications.
+
+My image-processing work also includes **windowing-based image filtering**. In addition, I have taken courses and carried out studies in **antenna theory and signal processing**, broadening my background in signals, filtering, and engineering systems.
+
+My AI projects include medical image segmentation, plant disease classification for a camera-based application, and tabular machine learning. I enjoy taking a project from data preparation and model training to evaluation, visualization, and deployment-oriented model export.
 
 ## Selected AI projects
 
@@ -62,18 +66,27 @@ I explored the **UCI Credit Approval** dataset through missing-value handling, c
 
 | Area | Tools and experience |
 | --- | --- |
-| Programming | **Python**, C++ |
+| Programming | **Python**, **C++**, object-oriented programming, lambda expressions |
+| Control and estimation | UAV control system design, control algorithms, Kalman filtering |
+| Signals and image filtering | Windowing-based image filtering; coursework and studies in signal processing and antenna theory |
 | Deep learning | TensorFlow, Keras, transfer learning, custom model layers |
 | Machine learning | scikit-learn, model comparison, GridSearchCV, cross-validation |
 | Data preparation | NumPy, pandas, class mapping, augmentation, missing-value handling |
 | Evaluation and visualization | Matplotlib, Seaborn, confusion matrices, classification and segmentation metrics |
 | Model tuning and export | Keras Tuner, Bayesian search, TensorFlow Lite conversion |
 
+## Programming examples
+
+- [C++ Lambda Expressions](https://github.com/mehmetkaramaan/LAMBDA_EXPRESSIONS): explanations and examples exploring lambda expressions in C++.
+- [Coffee Machine Project](https://github.com/mehmetkaramaan/CoffeMachine_Project): a Python application built with classes and object interactions.
+- [The Quiz Project](https://github.com/mehmetkaramaan/The-Quiz-Project): an application exploring object-oriented programming concepts.
+- [C++ Snake Game](https://github.com/mehmetkaramaan/Cpp): a game project applying C++ programming.
+
 ## Engineering background
 
 **Mechanical Engineering undergraduate studies → Control engineering development → Master's studies in Artificial Intelligence**
 
-I am interested in bringing these areas together through data-driven modeling, analysis of dynamic systems, and AI applications that connect software with the physical world.
+My control engineering work includes UAV control system design, control algorithms, and Kalman filtering. Alongside coursework and studies in antenna theory and signal processing, I am interested in connecting this engineering background with data-driven modeling and AI applications.
 
 ## Areas of interest
 
