@@ -14,7 +14,7 @@
 
 ## About me
 
-I'm pursuing a **master's degree in Artificial Intelligence** and developing AI models with **Python**. My interests span **machine learning, deep learning, image processing, computer vision, and time series analysis**.
+I'm pursuing a **master's degree in Artificial Intelligence** and developing AI models with **Python**. My interests span **machine learning, deep learning, image processing, computer vision, control engineering and time series analysis**.
 
 I also work with **C++ and object-oriented programming (OOP)**. My repositories include explanations and examples of **C++ lambda expressions**, alongside small applications that explore classes, object interactions, and reusable program structure. I use these projects to connect programming concepts with practical implementations.
 
