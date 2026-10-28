@@ -2,11 +2,11 @@
 
 # Mehmet Mikail Karaman
 
-### Artificial Intelligence · Python · Engineering
+### Artificial Intelligence · Python · Autonomous Systems
 
 **AI Master's Student | AI Model Development | Mechanical Engineering Background**
 
-[Computer Vision](#selected-ai-projects) · [Machine Learning](#selected-ai-projects) · [Time Series](#areas-of-interest) · [Control Engineering](#engineering-background)
+[Computer Vision](#selected-projects) · [Machine Learning](#selected-projects) · [Time Series](#areas-of-interest) · [Control Engineering](#engineering-background)
 
 </div>
 
@@ -24,7 +24,36 @@ My image-processing work also includes **windowing-based image filtering**. In a
 
 My AI projects include medical image segmentation, plant disease classification for a camera-based application, and tabular machine learning. I enjoy taking a project from data preparation and model training to evaluation, visualization, and deployment-oriented model export.
 
-## Selected AI projects
+My recent engineering projects include **AERIS**, a camera-guided autonomous UAV firefighting simulation using **Gazebo, PX4 SITL, Python, OpenCV and MAVLink**, and **NASA C-MAPSS turbofan sensor forecasting**, comparing ten ML/DL models with a persistence baseline. I build interactive interfaces to make mission state, sensor measurements, predictions and model errors easier to inspect.
+
+## Selected projects
+
+### AERIS — Autonomous UAV Firefighting
+
+**Gazebo · PX4 SITL · Python · OpenCV · MAVLink · A\* · Coverage Planning**
+
+I developed a simulated UAV system that visually discovers a water station, refills, searches for unknown fire locations, performs simulated suppression, verifies the result from camera observations, and returns to its recorded launch position. It combines **LiDAR-based obstacle avoidance**, persistent camera-coverage mapping and a ground control station with live video, telemetry and event logs.
+
+- One controlled benchmark completed **441/441 search cells**, suppressed **two fires** and performed **two refills**.
+- Coverage-aware routing reduced flown distance from **692.8 m to 413.2 m (40.4%)** versus the earlier planner on the same fire/station layout. This is a single-run comparison, not a general performance guarantee.
+- The showcase includes a **40-second Gazebo recording**, three GCS captures, architecture and validation results, plus independent Python examples with **six public sample tests**.
+- **Selected source publication:** the integrated mission, perception, avoidance and flight-command implementation remains private. This project has been tested in simulation; no physical flight is claimed.
+
+[Explore the project →](https://github.com/mehmetkaramaan/aeris-uav-showcase)
+
+### NASA C-MAPSS — Turbofan Sensor Forecasting
+
+**Python · Time Series · Machine Learning · Deep Learning · Interactive Visualization**
+
+I compared **ten learned models and a persistence baseline** for **next-cycle T50 sensor prediction** using NASA C-MAPSS FD001 engine trajectories. Each forecast uses the preceding **30 operating cycles**; engine-level train/validation separation and training-only preprocessing limit information leakage.
+
+- Models include KNN, Decision Tree, Random Forest, Extra Trees, Gradient Boosting, XGBoost, CatBoost, LightGBM, MLP and SimpleRNN.
+- **CatBoost**, selected by validation RMSE, achieved recorded held-out test **RMSE 4.1227 °R** and **MAE 3.2940 °R**, versus persistence RMSE **5.6698 °R**: **27.29% lower RMSE** in that experiment.
+- Built an English browser dashboard with an animated engine schematic, recorded sensor playback, and **one to four independent forecast/residual panels**, MAE/RMSE comparison and CSV export.
+- The dashboard replays recorded measurements and stored forecasts; it is not a thermodynamic simulator or a remaining-useful-life predictor.
+
+[Explore the code and results →](https://github.com/mehmetkaramaan/turbofan-sensor-forecasting-dashboard) · [Open the live demo →](https://mehmetkaramaan.github.io/turbofan-sensor-forecasting-dashboard/)
+
 
 ### 🌿 Plant Disease Camera AI
 
@@ -67,7 +96,10 @@ I explored the **UCI Credit Approval** dataset through missing-value handling, c
 | Area | Tools and experience |
 | --- | --- |
 | Programming | **Python**, **C++**, object-oriented programming, lambda expressions |
-| Control and estimation | UAV control system design, control algorithms, Kalman filtering |
+| Control and estimation | UAV simulation, control algorithms, Kalman filtering, bounded motion commands |
+| Robotics and ground control | Gazebo, PX4 SITL, MAVLink, OpenCV camera processing, LiDAR-based avoidance, telemetry dashboards |
+| Navigation and coverage | A* route planning, camera-footprint coverage mapping, set-cover and 2-opt route refinement |
+| Time-series forecasting | NASA C-MAPSS sensor windows, XGBoost/CatBoost/LightGBM, tree ensembles, MLP, SimpleRNN, persistence baselines |
 | Signals and image filtering | Windowing-based image filtering; coursework and studies in signal processing and antenna theory |
 | Deep learning | TensorFlow, Keras, transfer learning, custom model layers |
 | Machine learning | scikit-learn, model comparison, GridSearchCV, cross-validation |
@@ -86,7 +118,7 @@ I explored the **UCI Credit Approval** dataset through missing-value handling, c
 
 **Mechanical Engineering undergraduate studies → Control engineering development → Master's studies in Artificial Intelligence**
 
-My control engineering work includes UAV control system design, control algorithms, and Kalman filtering. Alongside coursework and studies in antenna theory and signal processing, I am interested in connecting this engineering background with data-driven modeling and AI applications.
+My control engineering work includes UAV control system design, control algorithms, and Kalman filtering. Through AERIS, I apply this background to simulated autonomous missions, perception-guided search, obstacle avoidance and ground control. My turbofan forecasting project connects time-series modeling with engine sensor measurements and comparative evaluation. Alongside coursework in antenna theory and signal processing, I am interested in connecting engineering systems with data-driven models.
 
 ## Areas of interest
 
