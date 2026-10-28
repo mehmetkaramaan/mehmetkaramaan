@@ -1,3 +1,5 @@
+[Connect with me on LinkedIn](https://www.linkedin.com/in/mehmetmikailkaraman/)
+
 <div align="center">
 
 # Mehmet Mikail Karaman
