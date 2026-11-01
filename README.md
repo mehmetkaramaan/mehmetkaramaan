@@ -54,7 +54,7 @@ Built an English browser dashboard with an animated engine schematic, recorded s
 [Explore the code and results →](https://github.com/mehmetkaramaan/turbofan-sensor-forecasting-dashboard) · [Open the live demo →](https://mehmetkaramaan.github.io/turbofan-sensor-forecasting-dashboard/)
 
 
-### 🌿 Plant Disease Camera AI
+### Plant Disease Camera AI
 
 **EfficientNetB0 · Transfer Learning · TensorFlow Lite**
 
@@ -66,7 +66,7 @@ Includes class-level evaluation, training curves, and TensorFlow Lite export cod
 
 [Explore the project →](https://github.com/mehmetkaramaan/plant-disease-camera-ai)
 
-### 🩻 BreastDM Lesion Segmentation
+### BreastDM Lesion Segmentation
 
 **MLSRS-SegFormer · Transformers · Medical Image Processing**
 
@@ -76,7 +76,7 @@ Best observed validation Dice: **0.6052**, with IoU **0.5000** at the same epoch
 
 [Explore the project →](https://github.com/mehmetkaramaan/breastdm-mlsrs-segformer)
 
-### 📊 Credit Approval Classification
+### Credit Approval Classification
 
 **scikit-learn · Tabular Data · Model Comparison**
 
